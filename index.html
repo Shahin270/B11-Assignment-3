@@ -80,8 +80,7 @@
                     </svg>
                   </button>
                   <div class="flex-none">
-                    <!-- <div class="dropdown dropdown-end">
-                      <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                      <!-- <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
                         <div class="indicator">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -97,7 +96,21 @@
                           </svg>
                           <span class="badge badge-sm indicator-item">8</span>
                         </div>
-                      </div> -->
+                      </div>  -->
+                      <button class="btn btn-ghost btn-circle">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="h-5 w-5"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor">
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
+                      </button>
                       <button class="hidden lg:visible btn btn-ghost btn-circle">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -153,7 +166,7 @@
               </div>
         </nav>
         <!-- Banner -->
-    <section class="w-10/12 mx-auto bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3] mt-10 ">
+    <section class="w-full mx-auto bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3] mt-10 ">
         <h1 class="text-center text-5xl font-bold mb-4">
             Freshness <span class="text-[#179800]">You Can<br>
                 Count</span>  On, Prices You’ll Love!
@@ -167,9 +180,58 @@
 
     </header>
     <main>
+        <!-- Card section -->
+        <div class="w-10/12 mx-auto mb-5">
+            <h1 class="text-4xl font-semibold text-[#179800]">Services</h1>
+        </div>
+         <section class="grid lg:grid-cols-3 w-10/12 mx-auto justify-center gap-8 mb-10">
+            
+            <div class="card bg-base-100 w-80  bg-[#EFEBE3] rounded-none">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="c2-assets/service.png"
+                    alt="Shoes"
+                    class="rounded-full p-2 bg-white" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title text-2xl font-bold">24/7 Service</h2>
+                  <p>
+                    We provide 24/7 service, ensuring support and solutions anytime you need them. Day or night, we're always here for you!</p>
+                  
+                </div>
+              </div>
+            <div class="card bg-base-100 w-80 rounded-none bg-[#EFEBE3]">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="c2-assets/delivery.png"
+                    alt="Shoes"
+                    class="rounded-full p-2 bg-white" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title font-bold text-2xl">First Delivery</h2>
+                  <p>We guarantee fast delivery, getting your work done quickly and efficiently. Speed and quality go hand in hand with our service!</p>
+                  
+                </div>
+              </div>
+            <div class="card bg-base-100 w-80 rounded-none bg-[#EFEBE3]">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="c2-assets/healthy.png"
+                    alt="Shoes"
+                    class="rounded-full p-2 bg-white" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Healthy Products</h2>
+                  <p>
+                    Our healthy products are made with natural ingredients to support your well-being. Choose nutrition and quality for a better lifestyle!</p>
+                  
+                </div>
+              </div>
+         </section>
 
     </main>
     <footer>
+      
 
     </footer>
 </body>
